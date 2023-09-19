@@ -1,6 +1,6 @@
 // Import the necessary dependencies
 const { ObjectId } = require('mongodb');
-const mongoDB = require('../model/config/mongodb')
+const mongoDB = require('../model/mongodb');
 
 // Function to sort projectDetails based on a given filter
 function filterBy(filter, projectDetails) {
