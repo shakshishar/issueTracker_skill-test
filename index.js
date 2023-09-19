@@ -21,4 +21,4 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 // Listening to the port 3000
-app.listen(PORT, ()=>{console.log("connected to server : "+ PORT) })
+app.listen(PORT, ()=>{console.log("connected to server : ",PORT) })
